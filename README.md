@@ -1,4 +1,4 @@
-# go_init
+# yarn_init
 
 Initialize yarn environment.
 
