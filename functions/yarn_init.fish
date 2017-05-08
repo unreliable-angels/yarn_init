@@ -8,6 +8,6 @@ function yarn_init -d 'Initialize yarn environment'
     set -l yarn_bin_path (yarn global bin)
 
     if not contains "$yarn_bin_path" $fish_user_paths
-        set -U fish_user_paths "$yarn_bin_path" $fish_user_paths
+        set -g fish_user_paths "$yarn_bin_path" $fish_user_paths
     end
 end
